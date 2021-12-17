@@ -1,0 +1,17 @@
+Práctico N 1
+Variable: Como su nombre lo indica la palabra variable proviene de variabilidad, que se puede modificar. Cuando un elemento es definido como una variable significa que su valor puede variar. Esto puede suceder cuando el elemento se encuentra formando parte de una operación matemática y el resultado es guardado en el mismo elemento. Por ejemplo: en A = A + 1; en A se guarda su valor incrementado en 1. Si A inicia con 1, la próxima vez ya no tendrá ese valor sino 2, y luego 3, y así sucesivamente. O bien porqué se trata de un elemento que recibe un valor que es ingresado desde el teclado para armar una lista.
+
+String: Significa cadena. Al elemento que es definido como String puede guardar una cadena de caracteres. Puede ser un nombre, una dirección, en incluso números. Las cadenas de caracteres deben estar encerrados entre comillas. Por ejemplo Domicilio = “San Martín”, Número = “36”. De no colocar las comillas en 36 lo tomaría como una variable numérica, lo que terminaría generando un error. 
+
+Funciones (argumento, return); Las funciones son elementos que hacen una tarea específica siempre que es convocada. Por ejemplo calcular la Raíz Cuadrada de un número X. En este ejemplo X es una variable que recibe un valor desde el argumento. El resultado es enviado a través de Return. El valor que es regresado puede recibir varios tratamientos: puede ser guardado en una variable, puede ser impreso en pantalla o papel, o puede formar parte del argumento de otra función.
+
+Declaraciones If: Es un operador de control de flujo y comparación. El operador if realiza una secuencia de tareas u otras según la comparación haya resultado en verdadero o falso. Por ejemplo: If (Edad >= 6 and Edad <= 13) {Escolaridad = “Primaria”;} 
+If (Edad > 13 and Edad <= 18) {Escolaridad = “Secundaria”;}
+{Escolaridad = “Terciaria”}
+ En este ejemplo si la Edad está entre 6 y 13 años se guarda en la variable Escolaridad el string “Primaria”. Sino si es falso,  evalúa si la Edad está entre 14 y 18, en este caso de ser verdad guarda en la variable Escolaridad el string “Secundario”, de ser falso se guarda el string “Terciario”.
+Valores Booleans (True o False): Un valor de tipo booleano es aquel que solo puede tener uno de estos dos valores: verdadero o falso. Por ejemplo: 
+Var Llueve = True;
+If Llueve {Tarea = “Ir al cine”;
+   Llueve = False;
+}
+	{Tarea = “Ir al parque”}
